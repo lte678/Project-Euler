@@ -1,3 +1,8 @@
+# This solution-attempt is non-functional.
+# It (kind of) works by dividing by base 10 numbers expressed in base 2 and incremently whittling down the 
+# numerator. This is similar to standard conversion to decimal.
+# believe the mistake  
+
 const BASE2_10 = log2(10.0)
 
 
@@ -17,4 +22,4 @@ function solve(exp_2)
     println("The sum is $digit_sum")
 end
 
-solve(15.0)
+solve(1000.0)
