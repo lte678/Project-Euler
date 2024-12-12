@@ -1,7 +1,5 @@
 from math import floor
 
-from numpy import number
-from torch import numel
 
 def digit_to_english(n):
     NAMES = {
